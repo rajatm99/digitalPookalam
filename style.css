@@ -1,0 +1,327 @@
+body{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+}
+
+.mainDiv{
+      height: 80vh;
+      width: 80vw;
+      background-color: white;
+      position: relative;
+}
+
+.square1{
+      height: 300px;
+      width: 300px;
+      background-color: brown;
+      position: absolute;
+      top: 405px;
+      right: 405px;
+      border-radius: 0px;
+      z-index: 93;
+      
+}
+      #idSquare1_2{
+   
+            transform: rotate(15deg);
+            background-color: aliceblue;
+      }
+      #idSquare1_3{
+   
+            transform: rotate(30deg);
+      }
+      #idSquare1_4{
+            background-color: aliceblue;
+   
+            transform: rotate(45deg);
+      }
+      #idSquare1_5{
+   
+            transform: rotate(60deg);
+      }
+      #idSquare1_6{
+            background-color: aliceblue;
+   
+            transform: rotate(75deg);
+      }
+
+      #squareDiv{
+            align-content: center;
+      }
+
+
+.innerCircle{
+      height: 100px;
+      width: 100px;
+      border-radius: 100px;
+      z-index: 100;
+
+      background-color: rgb(255, 238, 0);
+      position: absolute;
+      right: 500px;
+      top: 500px;
+}
+      #innerCircle1{
+            transform: rotate(45deg);
+      }
+      #innerCircle2{
+            transform: rotate(75deg);
+      }
+      #innerCircle3{
+            transform: rotate(105deg);
+      }
+      #innerCircle4{
+            transform: rotate(135deg);
+      }
+      #innerCircle5{
+            transform: rotate(165deg);
+      }
+      #innerCircle6{
+            transform: rotate(195deg);
+      }
+      #innerCircle7{
+            transform: rotate(225deg);
+      }
+      #innerCircle8{
+            transform: rotate(255deg);
+      }
+      #innerCircle9{
+            transform: rotate(285deg);
+      }
+      #innerCircle10{
+            transform: rotate(315deg);
+      }
+      #innerCircle11{
+            transform: rotate(345deg);
+      }
+      #innerCircle12{
+            transform: rotate(375deg);
+      }
+      #innerCircle13 div{
+            display: none;
+      }
+   
+
+      .innerCircleEdge{
+            height: 20px;
+            width: 20px;
+            background-color: rgb(100, 143, 237);
+            z-index: 4;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius:5px ;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 2px;
+      }
+
+.outerCircle1{
+      height: 170px;
+      width: 170px;
+      position: absolute;
+      top: 465px;
+      right: 465px;
+      border-radius: 170px;
+      z-index: 99;
+
+      background-color: rgb(0, 0, 0);
+     
+}
+
+.innerSquare{
+      height: 170px;
+      width: 170px;
+      position: absolute;
+      top: 465px;
+      right: 465px;
+      background-color: rgb(255, 11, 11);
+      z-index: 98;
+   
+}
+
+      #innerSquare1{
+            transform: rotate(45deg);
+      }
+      #innerSquare2{
+            transform: rotate(90deg);
+      }
+
+      .innerSquareCorner{
+            height: 15px;
+            width: 15px;
+            border-radius: 10px;
+            background-color: darkblue;
+            z-index: 1001;
+      }
+      #innerSquareCornerTL{
+            position: absolute;
+            top: 8px;
+            left: 8px;
+      }
+      #innerSquareCornerTR{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            
+      }
+      #innerSquareCornerBL{
+            position: absolute;
+            bottom: 8px;
+            left: 8px;
+      }
+      #innerSquareCornerBR{
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+      }
+.outerCircle2{
+      height: 240px;
+      width:240px;
+      position: absolute;
+      top:430px;
+      right: 430px;
+      border-radius: 120px;
+      z-index: 97;
+      background-color: rgb(34, 56, 255);
+}
+
+.outerCircle3{
+      height: 310px;
+      width: 310px;
+      position: absolute;
+      top: 100px;
+      right: 10px;
+      border-radius: 280px;
+      background-color: rgb(255, 0, 0);
+      z-index: 96;
+}
+
+.oCircle3Square{
+      height: 220px;
+      width: 220px;
+      position: absolute;
+      top: 440px;
+      right: 440px;
+      background-color: rgba(110, 2, 2, 0.493);
+      border-width: 3px;
+      border-color: black;
+      border-style: solid;
+      z-index: 95;
+}
+      #oCircle3Square1{
+            transform: rotate(10deg);
+      }
+      #oCircle3Square2{
+            transform: rotate(20deg);
+      }
+      #oCircle3Square3{
+            transform: rotate(30deg);
+      }
+      #oCircle3Square4{
+            transform: rotate(40deg);
+      }
+      #oCircle3Square5{
+            transform: rotate(50deg);
+      }
+      #oCircle3Square6{
+            transform: rotate(60deg);
+      }
+      #oCircle3Square7{
+            transform: rotate(70deg);
+      }
+      #oCircle3Square8{
+            transform: rotate(80deg);
+      }
+      #oCircle3Square9{
+            transform: rotate(90deg);
+      }
+      #oCircle3Square10{
+            transform: rotate(100deg);
+      }
+
+.outerCircle3{
+      height: 330px;
+      width: 330px;
+      /* border-radius: 10px; */
+      position: absolute;
+      top: 390px;
+      right: 390px;
+      background-color: rgb(255, 217, 0);
+      z-index: 94;
+
+}
+
+
+.outermostCircle{
+      height: 430px;
+      width: 430px;
+      border-radius: 400px;
+      position:absolute;
+      top: 340px;
+      right: 340px;
+      background-color: rgb(36, 153, 0);
+      z-index: 92;
+}
+
+.outerRoundObject{
+      height: 15px;
+      width: 15px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+
+}
+      #outerRoundObject1{
+            position: absolute;
+            top: 18px;
+            left: -18px;
+      }
+      #outerRoundObject2{
+            position: absolute;
+            top: -18px;
+            right: 18px;
+      
+      }
+      #outerRoundObject3{
+            position: absolute;
+            bottom: -18px;
+            left: 18px;
+       
+      }
+      #outerRoundObject4{
+            position: absolute;
+            bottom: 18px;
+            right: -18px;
+            
+      }
+
+
+
+
+.kvLogo{
+      height: auto;
+      width: auto;
+      position:absolute;
+      top:425px;
+      right: 750px;      
+      font-weight: bolder;
+      font-size: 30px;
+      z-index: 101;
+}
+
+      .kvLogoT1{            
+            position: absolute;
+            top: 100px;
+            left: 200px;
+            color:blue;
+      }
+      .kvLogoT2{            
+            position: absolute;
+            top: 100px;
+            left: 215px;
+            color: gray;
+      }
+      .kvLogoT3{            
+            position: absolute;
+            top: 110px;
+            left: 207.5px;
+            color: red;
+      }
