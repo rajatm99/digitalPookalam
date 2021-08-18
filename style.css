@@ -2,6 +2,8 @@ body{
       width: 100%;
       height: 100%;
       overflow: hidden;
+    
+
 }
 
 .mainDiv{
@@ -38,7 +40,8 @@ body{
       right: 405px;
       border-radius: 0px;
       z-index: 93;
-   
+      /* -webkit-animation: rotation 2s infinite linear; */
+      
 
     
       
@@ -149,7 +152,7 @@ body{
                   background: #ee6055;
             }
             25% {
-                  background: #60d394;
+                  background: #ffffff;
             }
             50% {
                   background: #aaf683;
@@ -184,6 +187,8 @@ body{
       right: 465px;
       background-color: rgb(255, 11, 11);
       z-index: 98;
+    
+
    
 }
 
