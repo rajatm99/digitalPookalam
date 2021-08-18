@@ -26,8 +26,15 @@ body{
 }
 
 .rotate1{
-      background-color: blue;
-      /* -webkit-animation: rotation 2s infinite linear; */
+      background-color: rgba(0, 0, 0, 0.315);
+      height: 300px;
+      width: 300px;
+      z-index: 93;
+      position: absolute;
+      top:405px;
+      right:405px;
+   
+      -webkit-animation: rotation 15s infinite linear;
 
 }
 
@@ -36,15 +43,11 @@ body{
       width: 300px;
       background-color: brown;
       position: absolute;
-      top: 405px;
-      right: 405px;
+      top: 1px;
+      right: 1px;
       border-radius: 0px;
       z-index: 93;
-      /* -webkit-animation: rotation 2s infinite linear; */
-      
-
-    
-      
+            /* -webkit-animation: rotation 2s infinite linear; */    
 }
       #idSquare1_2{
    
