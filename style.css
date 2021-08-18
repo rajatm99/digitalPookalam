@@ -41,7 +41,7 @@ body{
 .square1{
       height: 300px;
       width: 300px;
-      background-color: rgb(226, 210, 66);
+      background-color: rgb(255, 230, 0);
       position: absolute;
       top: 1px;
       right: 1px;
@@ -242,7 +242,8 @@ body{
       right: 430px;
       border-radius: 120px;
       z-index: 97;
-      background-color: rgb(226, 210, 66);
+      background-color: rgb(255, 230, 0);
+
 }
 
 .outerCircle3{
@@ -263,7 +264,7 @@ body{
       position: absolute;
       top: 440px;
       right: 440px;
-      background-color: rgba(136, 0, 129, 0.493);
+      background-color: rgba(88, 0, 84, 0.493);
       border-width: 1px;
       border-color: rgb(0, 0, 0);
       border-style: solid;
@@ -308,6 +309,7 @@ body{
       top: 390px;
       right: 390px;
       background-color: rgb(255, 111, 255);
+
       z-index: 94;
 
 }
@@ -354,6 +356,17 @@ body{
             right: -18px;
             
       }
+
+.innerMostCircle{
+      height: 70px;
+      width: 70px;
+      border-radius: 100px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      top: 515px;
+      right: 515px;
+      z-index: 100;
+}      
 
 
 
