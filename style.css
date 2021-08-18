@@ -141,7 +141,7 @@ body{
             border-top-left-radius: 2px;
 
             animation-name: backgroundColorPalette;
-	      animation-duration: 5s;
+	      animation-duration: 2s;
 	      animation-iteration-count: infinite;
 	      animation-direction: alternate;
 	      animation-timing-function: linear; 
